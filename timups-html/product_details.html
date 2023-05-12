@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <style>
+    /* Reset CSS */
+    body, h1, h2, p, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .product-details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .product-image {
+      flex: 0 0 40%;
+    }
+    img {
+      width: 350px;
+      height: 350px;
+    }
+
+    .product-info {
+      flex: 0 0 60%;
+    }
+
+    .product-info h2 {
+      margin-bottom: 10px;
+    }
+
+    .product-info p {
+      margin-bottom: 5px;
+    }
+
+    .product-info button {
+      padding: 10px 20px;
+      background-color: #fca311;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .product-reviews {
+      margin-top: 40px;
+    }
+
+    .product-reviews h2 {
+      margin-bottom: 10px;
+    }
+
+    .product-reviews ul {
+      list-style: none;
+    }
+
+    .product-reviews li {
+      margin-bottom: 20px;
+    }
+
+    .product-reviews h3 {
+      margin-bottom: 5px;
+    }
+
+    /* Responsive Styles */
+    @media screen and (max-width: 768px) {
+      .product-details {
+        flex-direction: column;
+      }
+
+      .product-image {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body class="sub_page">
+
+<div class="hero_area">
+  <!-- header section strats -->
+  <header class="header_section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <a class="navbar-brand" href="index.html">
+            <span>
+              Timups
+            </span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""> </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="watches.html"> Watches </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html"> About <span class="sr-only">(current)</span> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <div class="user_option-box">
+            <div id="search">
+              <input type="email" placeholder="Tìm kiếm..." />
+              <a href="">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </a>
+            </div>
+            <a href="login.html">
+              <i class="fa fa-user" aria-hidden="true"></i>
+            </a>
+            <a href="cart.html">
+              <i class="fa fa-cart-plus" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header section -->
+</div>
+
+<header>
+  <h1>Product Details</h1>
+</header>
+
+<div class="container">
+  <div class="product-details">
+    <div class="product-image">
+      <img src="images/watch.jpg" alt="Watch">
+    </div>
+    <div class="product-info">
+      <h2>Classic Leather Watch</h2>
+      <p>Price: $99.99</p>
+      <p>Color: Black</p>
+      <p>Material: Leather</p>
+      <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula placerat lorem at auctor.</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-reviews">
+    <h2>Customer Reviews</h2>
+    <ul>
+      <li>
+        <h3>John Doe</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique gravida dictum.</p>
+      </li>
+      <li>
+        <h3>Jane Smith</h3>
+        <p>Quisque consectetur orci ac metus gravida consequat. Fusce tristique sem sed diam dignissim, ac viverra quam condimentum.</p>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<script src="script.js"></script>
+<object data="footer.html" width="100%" height="390px"></object>
+</body>
+</html>
