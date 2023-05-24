@@ -1,9 +1,9 @@
 import React from 'react';
 import Slider from "../components/Slider";
 import ProductList from "../components/ProductList";
-import About from "../components/About";
+import About from "./About";
 import Feature from "../components/Feature";
-import Contact from "../components/Contact";
+import Contact from "./Contact";
 
 const Home = () => {
     return (

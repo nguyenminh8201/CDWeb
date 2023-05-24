@@ -1,15 +1,14 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Product from "./components/Product";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Product from "./Pages/Product";
 import Home from "./Pages/Home";
-import Login from "./components/Login";
-import Register from "./components/Register";
+import Login from "./Pages/Login";
+import Register from "./Pages/Register";
 import ProductDetails from "./components/ProductDetails";
 import Cart from "./components/Cart";
-
 
 function App() {
     return (

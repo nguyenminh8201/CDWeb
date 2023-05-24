@@ -26,7 +26,7 @@ const About = () => {
                                     embarrassing hidden in
                                     the middle of text. All
                                 </p>
-                                <a href="">
+                                <a href="src/Pages/About">
                                     Read More
                                 </a>
                             </div>

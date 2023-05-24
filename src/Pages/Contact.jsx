@@ -11,7 +11,7 @@ const Contact = () => {
                                         Contact Us
                                     </h2>
                                 </div>
-                                <form action="">
+                                <form action="src/Pages/Contact">
                                     <div>
                                         <input type="text" placeholder="Full Name "/>
                                     </div>
