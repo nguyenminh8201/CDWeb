@@ -10,6 +10,7 @@ import Register from "./components/Register";
 import ProductDetails from "./components/ProductDetails";
 import Cart from "./components/Cart";
 
+
 function App() {
     return (
         <div className="App">
@@ -17,7 +18,6 @@ function App() {
                 <Header/>
                 <Routes>
                     <Route path="/" element={<Home/>}/>
-                    <Route path="/product" element={<Product/>}/>
                     <Route path="/about" element={<About/>}/>
                     <Route path="/contact" element={<Contact/>}/>
                     <Route path="/product" element={<Product/>}/>
@@ -28,7 +28,6 @@ function App() {
                 </Routes>
                 <Footer/>
             </Router>
-
         </div>
     );
 }
