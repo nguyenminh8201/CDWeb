@@ -19,15 +19,15 @@ const MenuSidebar = () => {
         </div>
         <div className="menu-sidebar2__content js-scrollbar2">
           <nav className="navbar-sidebar2">
-            <ul className="list-unstyled navbar__list">
+          <ul className="list-unstyled navbar__list">
               <li>
-                <Link to={"/"}>
-                  <i className="fas fa-chart-bar"></i>Thống kê
+                <Link to={"/statistical"}>
+                  <i className="fas fa-chart-bar"></i>Statistical
                   </Link>
               </li>
               <li className="has-sub">
                 <a className="js-arrow" href="#" onClick={handleOpen}>
-                  <i className="fas fa-calculator"></i>Quản lý
+                  <i className="fas fa-calculator"></i>Manage
                   <span className="arrow">
                     <i className="fas fa-angle-down"></i>
                   </span>
@@ -36,17 +36,17 @@ const MenuSidebar = () => {
                   <ul className="list-unstyled js-sub-list">
                     <li style={{ background: '#f5f5f5' }}>
                       <Link to={"/category"}>
-                        <i className="fas fa-object-group"></i>Quản lý danh mục
+                        <i className="fas fa-object-group"></i>Category Manager
                         </Link>                    
                     </li>
                     <li style={{ background: '#f5f5f5' }}>
-                    <Link to={"/product"}>
-                        <i className="fas fa-floppy-o"></i>Quản lý sản phẩm
+                    <Link to={"/productManager"}>
+                        <i className="fas fa-floppy-o"></i>Product Management
                         </Link> 
                     </li>
                     <li style={{ background: '#f5f5f5' }}>
                       <Link to={"/order"}>
-                        <i className="fas fa-sticky-note"></i>Quản lý đơn hàng
+                        <i className="fas fa-sticky-note"></i>Order Management
                         </Link>
                       <span className="inbox-num">3</span>
                     </li>
@@ -61,12 +61,12 @@ const MenuSidebar = () => {
               </li>
               <li className="has-sub">
                 <a className="js-arrow" href="#">
-                  <i className="fas fa-group"></i>Khách hàng
+                  <i className="fas fa-group"></i>User
                 </a>
               </li>
               <li className="has-sub">
                 <a className="js-arrow" href="#">
-                  <i className="fas fa-check-square"></i>Hóa đơn
+                  <i className="fas fa-check-square"></i>Bill
                 </a>
               </li>
             </ul>

@@ -17,7 +17,7 @@ export default class Statistical extends Component {
                         <div class="col-md-12">
                             <div class="overview-wrap">
                                 <h2 class="title-1">Tổng quan</h2>
-                                <button class="au-btn au-btn-icon au-btn--blue">
+                                <button class="au-btn au-btn-icon au-btn--blue" style={{width : "250px"}}>
                                     <i class="zmdi zmdi-plus"></i>Thêm đơn hàng
                                 </button>
                             </div>
